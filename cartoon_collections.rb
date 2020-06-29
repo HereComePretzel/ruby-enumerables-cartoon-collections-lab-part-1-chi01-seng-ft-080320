@@ -1,6 +1,7 @@
 def greet_characters(array)
   array.each |greeting| do 
-  puts "Hello #{greeting}"
+  puts `Hello #{greeting}`
+end 
   # Use `each` to enumerate over the provided array
   #
   # Print a custom greeting for each element
